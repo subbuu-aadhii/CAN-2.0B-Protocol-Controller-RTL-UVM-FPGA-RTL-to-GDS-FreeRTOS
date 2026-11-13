@@ -1,0 +1,8 @@
+VCD info: dumpfile tb_fpga.vcd opened for output.
+[562015000 ns] node B received ID[3:0]=3 byte0=00
+[1121955000 ns] node B received ID[3:0]=3 byte0=01
+[1679895000 ns] node B received ID[3:0]=3 byte0=02
+[2239835000 ns] node B received ID[3:0]=3 byte0=03
+[2843775000 ns] node B received ID[3:0]=5 byte0=04
+[3445715000 ns] node B received ID[3:0]=5 byte0=05
+FPGA TOP SIM PASSED

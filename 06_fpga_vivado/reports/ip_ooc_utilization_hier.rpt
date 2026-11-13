@@ -1,0 +1,35 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Fri Nov 13 16:03:30 2026
+| Host         : DESKTOP-403BO6F running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file reports/ip_ooc_utilization_hier.rpt
+| Design       : can_top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+|   Instance   |  Module  | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++--------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+| can_top      |    (top) |       1131 |       1063 |      68 |    0 | 492 |      0 |      0 |          0 |
+|   (can_top)  |    (top) |          0 |          0 |       0 |    0 |   2 |      0 |      0 |          0 |
+|   u_bsp      |  can_bsp |        666 |        666 |       0 |    0 | 242 |      0 |      0 |          0 |
+|   u_btl      |  can_btl |         60 |         60 |       0 |    0 |  31 |      0 |      0 |          0 |
+|   u_regs     | can_regs |        408 |        340 |      68 |    0 | 217 |      0 |      0 |          0 |
+|     (u_regs) | can_regs |        231 |        231 |       0 |    0 | 210 |      0 |      0 |          0 |
+|     u_fifo   | can_fifo |        180 |        112 |      68 |    0 |   7 |      0 |      0 |          0 |
++--------------+----------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
