@@ -1,0 +1,1 @@
+"tb_top" -L "uvm" -timescale "1ns/1ps" -s "can_uvm_snap" -debug "typical" -cc_type "sbct" -cc_db "can_code_cov" -cc_dir "D:/CAN20B_Controller_Project/04_uvm/code_cov_db" -log "logs\xelab.log" 

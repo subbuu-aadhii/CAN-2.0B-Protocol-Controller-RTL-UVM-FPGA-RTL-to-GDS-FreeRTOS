@@ -1,0 +1,44 @@
+
+INFO: No databases mentioned using -cov_db_name option. This may lead to restoring and merging of all databases mentioned in -cov_db_dir option. Please pass database names using -cov_db_name option to use only intended databases for merging.
+
+ Options Set are : 
+
+   Command Line               : xcrg -report_format html -dir .\func_cov_db\xsim.covdb -report_dir .\reports\functional_cov -log logs\xcrg_func.log
+   Report Format              : html
+   Log File                   : logs\xcrg_func.log
+   Functional Coverage Dir[s] : .\func_cov_db\xsim.covdb
+
+
+
+********************************************************
+                  Functional Coverage Report 
+********************************************************
+
+ Restoring Functional Coverage DB[s] from : 
+  1	.\func_cov_db\xsim.covdb\can_arb_test\xsim.covinfo
+  2	.\func_cov_db\xsim.covdb\can_busoff_test\xsim.covinfo
+  3	.\func_cov_db\xsim.covdb\can_dut_rx_test\xsim.covinfo
+  4	.\func_cov_db\xsim.covdb\can_dut_tx_test\xsim.covinfo
+  5	.\func_cov_db\xsim.covdb\can_err_test\xsim.covinfo
+  6	.\func_cov_db\xsim.covdb\can_full_test\xsim.covinfo
+  7	.\func_cov_db\xsim.covdb\can_reg_test\xsim.covinfo
+
+ Functional Coverage Merge Directory              : .
+ Functional Coverage Merge DB                     : xcrg_mergedDB
+ Saving the Merged Functional Coverage Info at    : ./xsim.covdb/xcrg_mergedDB/xsim.covinfo
+ Functional Coverage HTML Report directory        : .\reports\functional_cov/functionalCoverageReport
+
+ Creating dashboard.html 
+
+ Creating groups.html 
+
+ Creating grp0.html 
+
+ Creating grp1.html 
+
+ Creating grp2.html 
+
+ Creating grp3.html 
+
+ Creating grp4.html 
+

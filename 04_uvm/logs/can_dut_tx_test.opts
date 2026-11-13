@@ -1,0 +1,5 @@
+-testplusarg UVM_TESTNAME=can_dut_tx_test
+-testplusarg UVM_VERBOSITY=UVM_LOW
+-sv_seed 98857
+-cov_db_name can_dut_tx_test
+-cov_db_dir ./func_cov_db

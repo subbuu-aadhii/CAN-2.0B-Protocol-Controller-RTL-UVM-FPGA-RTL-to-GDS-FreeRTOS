@@ -1,0 +1,5 @@
+-testplusarg UVM_TESTNAME=can_full_test
+-testplusarg UVM_VERBOSITY=UVM_LOW
+-sv_seed 89704
+-cov_db_name can_full_test
+-cov_db_dir ./func_cov_db

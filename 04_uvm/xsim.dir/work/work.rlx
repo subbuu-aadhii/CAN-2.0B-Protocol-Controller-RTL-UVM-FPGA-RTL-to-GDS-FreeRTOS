@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+D:/2025.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh,1763151256,verilog,,,,,,,,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_acf.v,1794562738,systemVerilog,,D:/CAN20B_Controller_Project/01_rtl/can_fifo.v,,can_acf,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_bsp.v,1794562866,systemVerilog,,D:/CAN20B_Controller_Project/01_rtl/can_acf.v,,can_bsp,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_btl.v,1794562618,systemVerilog,,D:/CAN20B_Controller_Project/01_rtl/can_bsp.v,,can_btl,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_crc15.v,1794562618,systemVerilog,D:/CAN20B_Controller_Project/01_rtl/can_acf.v;D:/CAN20B_Controller_Project/01_rtl/can_bsp.v;D:/CAN20B_Controller_Project/01_rtl/can_btl.v;D:/CAN20B_Controller_Project/01_rtl/can_fifo.v;D:/CAN20B_Controller_Project/01_rtl/can_regs.v;D:/CAN20B_Controller_Project/01_rtl/can_top.v;D:/CAN20B_Controller_Project/04_uvm/tb/can_ifs.sv;D:/CAN20B_Controller_Project/04_uvm/tb/can_sva.sv;D:/CAN20B_Controller_Project/04_uvm/tb/tb_top.sv,D:/CAN20B_Controller_Project/01_rtl/can_btl.v,,$unit_can_crc15_v_2423323102;can_crc15,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_fifo.v,1794562738,systemVerilog,,D:/CAN20B_Controller_Project/01_rtl/can_regs.v,,can_fifo,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_regs.v,1794562786,systemVerilog,,D:/CAN20B_Controller_Project/01_rtl/can_top.v,,can_regs,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/01_rtl/can_top.v,1794562866,systemVerilog,,D:/CAN20B_Controller_Project/04_uvm/tb/can_ifs.sv,,can_top,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/04_uvm/tb/can_ifs.sv,1794564451,systemVerilog,,D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv,,apb_if;can_if,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/04_uvm/tb/can_sva.sv,1794564684,systemVerilog,,D:/CAN20B_Controller_Project/04_uvm/tb/tb_top.sv,,can_sva,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/04_uvm/tb/can_tests.sv,1794565286,verilog,,,D:/2025.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh,,,,,,,,,
+D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv,1794565531,systemVerilog,D:/CAN20B_Controller_Project/04_uvm/tb/tb_top.sv,D:/CAN20B_Controller_Project/04_uvm/tb/can_sva.sv,D:/2025.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh,can_uvm_pkg,,uvm,tb,,,,,
+D:/CAN20B_Controller_Project/04_uvm/tb/tb_top.sv,1794564666,systemVerilog,,,D:/2025.2/data/xsim/system_verilog/uvm_include/uvm_macros.svh;D:/CAN20B_Controller_Project/04_uvm/tb/can_tests.sv,tb_top,,uvm,tb,,,,,

@@ -1,0 +1,201 @@
+#-----------------------------------------------------------
+# xsim v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Nov 13 16:03:09 2026
+# Process ID         : 4404
+# Current directory  : D:/CAN20B_Controller_Project/04_uvm
+# Command line       : xsim.exe -log logs\cc_try.log -mode tcl -source {xsim.dir/can_uvm_snap/xsim_script.tcl}
+# Log file           : D:/CAN20B_Controller_Project/04_uvm/logs/cc_try.log
+# Journal file       : D:/CAN20B_Controller_Project/04_uvm\xsim.jou
+# Running On         : DESKTOP-403BO6F
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26300
+# Processor Detail   : Intel(R) Core(TM) i5-9300HF CPU @ 2.40GHz
+# CPU Frequency      : 2400 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8506 MB
+# Swap memory        : 12348 MB
+# Total Virtual      : 20854 MB
+# Available Virtual  : 6663 MB
+#-----------------------------------------------------------
+source xsim.dir/can_uvm_snap/xsim_script.tcl
+# xsim {can_uvm_snap} -testplusarg UVM_TESTNAME=can_dut_tx_test -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test can_dut_tx_test...
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+--------------------------------------------------------------
+Name                       Type                    Size  Value
+--------------------------------------------------------------
+uvm_test_top               can_dut_tx_test         -     @347 
+  env                      can_env                 -     @365 
+    apb_agt                apb_agent               -     @375 
+      drv                  apb_driver              -     @588 
+        rsp_port           uvm_analysis_port       -     @607 
+        seq_item_port      uvm_seq_item_pull_port  -     @597 
+      mon                  apb_monitor             -     @617 
+        ap                 uvm_analysis_port       -     @626 
+      sqr                  uvm_sequencer           -     @451 
+        rsp_export         uvm_analysis_export     -     @460 
+        seq_item_export    uvm_seq_item_pull_imp   -     @578 
+        arbitration_queue  array                   0     -    
+        lock_queue         array                   0     -    
+        num_last_reqs      integral                32    'd1  
+        num_last_rsps      integral                32    'd1  
+    can_agt                can_agent               -     @384 
+      drv                  can_driver              -     @780 
+        rsp_port           uvm_analysis_port       -     @799 
+        sent_ap            uvm_analysis_port       -     @809 
+        seq_item_port      uvm_seq_item_pull_port  -     @789 
+      mon                  can_monitor             -     @819 
+        ap                 uvm_analysis_port       -     @828 
+      sqr                  uvm_sequencer           -     @643 
+        rsp_export         uvm_analysis_export     -     @652 
+        seq_item_export    uvm_seq_item_pull_imp   -     @770 
+        arbitration_queue  array                   0     -    
+        lock_queue         array                   0     -    
+        num_last_reqs      integral                32    'd1  
+        num_last_rsps      integral                32    'd1  
+    cov                    can_coverage            -     @422 
+      apb_imp              uvm_analysis_imp_apb    -     @431 
+      can_imp              uvm_analysis_imp_can    -     @441 
+    sb                     can_scoreboard          -     @393 
+      apb_imp              uvm_analysis_imp_apb    -     @402 
+      can_imp              uvm_analysis_imp_can    -     @412 
+--------------------------------------------------------------
+
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 81375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x44c4313 RTR DLC=8 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 81375000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x44c4313 RTR DLC=8 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 185575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x53d     DLC=7 DATA=[18 92 5c 51 09 4e e8 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 185575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x53d     DLC=7 DATA=[18 92 5c 51 09 4e e8 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 313775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0xccd1214     DLC=7 DATA=[0d 81 86 c3 07 76 80 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 313775000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0xccd1214     DLC=7 DATA=[0d 81 86 c3 07 76 80 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 401975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x411     DLC=5 DATA=[77 89 73 5c a4 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 401975000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x411     DLC=5 DATA=[77 89 73 5c a4 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 497175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x14918d6     DLC=3 DATA=[da 7f 62 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 497175000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x14918d6     DLC=3 DATA=[da 7f 62 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 544375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x6b0 RTR DLC=2 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 544375000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x6b0 RTR DLC=2 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 659575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x353     DLC=15 DATA=[b4 a7 10 f3 9f 85 dc c1 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 659575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x353     DLC=15 DATA=[b4 a7 10 f3 9f 85 dc c1 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 793775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x1c7f0c95     DLC=8 DATA=[44 7f 8b 86 15 cb 84 be ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 793775000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x1c7f0c95     DLC=8 DATA=[44 7f 8b 86 15 cb 84 be ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 898975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x254     DLC=7 DATA=[6f b8 ad 11 e5 68 9b ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 898975000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x254     DLC=7 DATA=[6f b8 ad 11 e5 68 9b ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 995175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x1c2987d3     DLC=3 DATA=[fb 9d 3e ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 995175000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x1c2987d3     DLC=3 DATA=[fb 9d 3e ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1085375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0xaa     DLC=5 DATA=[91 f5 71 d7 19 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1085375000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0xaa     DLC=5 DATA=[91 f5 71 d7 19 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1134575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x300 RTR DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1134575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x300 RTR DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1242775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x1a355561     DLC=5 DATA=[3a 73 b6 29 27 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1242775000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x1a355561     DLC=5 DATA=[3a 73 b6 29 27 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1352975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0xd0327f6     DLC=5 DATA=[91 e8 65 61 c6 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1352975000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0xd0327f6     DLC=5 DATA=[91 e8 65 61 c6 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1467175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x6a9     DLC=8 DATA=[95 33 59 92 14 fe 4e 02 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1467175000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x6a9     DLC=8 DATA=[95 33 59 92 14 fe 4e 02 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1536375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x552f783     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1536375000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x552f783     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1594575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x61a     DLC=1 DATA=[7f ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1594575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x61a     DLC=1 DATA=[7f ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1707775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x21c     DLC=8 DATA=[c9 74 72 87 52 86 3b 42 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1707775000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x21c     DLC=8 DATA=[c9 74 72 87 52 86 3b 42 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1776975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x193f8496     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1776975000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x193f8496     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1888175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x4c7e421     DLC=5 DATA=[88 39 75 0a f3 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1888175000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x4c7e421     DLC=5 DATA=[88 39 75 0a f3 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 1959375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x3e182e0     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 1959375000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x3e182e0     DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2050575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x39f     DLC=5 DATA=[15 90 de e4 7d ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2050575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x39f     DLC=5 DATA=[15 90 de e4 7d ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2138775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x612     DLC=5 DATA=[56 e4 21 d0 bc ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2138775000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x612     DLC=5 DATA=[56 e4 21 d0 bc ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2207975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x82b88d0 RTR DLC=3 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2207975000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x82b88d0 RTR DLC=3 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2321175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x613     DLC=10 DATA=[a0 49 24 c6 b0 09 29 da ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2321175000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x613     DLC=10 DATA=[a0 49 24 c6 b0 09 29 da ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2395375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x282     DLC=3 DATA=[30 dc c6 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2395375000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x282     DLC=3 DATA=[30 dc c6 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2511575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x4f0     DLC=8 DATA=[0d 55 4c 36 f0 7d 6d d7 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2511575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x4f0     DLC=8 DATA=[0d 55 4c 36 f0 7d 6d d7 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2614775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0xb8e4f4d     DLC=4 DATA=[f8 15 6e fa ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2614775000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0xb8e4f4d     DLC=4 DATA=[f8 15 6e fa ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2691975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x15c57461     DLC=1 DATA=[81 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2691975000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x15c57461     DLC=1 DATA=[81 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2789175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0xd1     DLC=6 DATA=[0b 72 62 89 11 fd ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2789175000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0xd1     DLC=6 DATA=[0b 72 62 89 11 fd ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 2892375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x8db2d3c     DLC=4 DATA=[a3 54 9f 00 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 2892375000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x8db2d3c     DLC=4 DATA=[a3 54 9f 00 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3000575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x45f     DLC=7 DATA=[9e 8d 92 ed c1 73 71 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3000575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x45f     DLC=7 DATA=[9e 8d 92 ed c1 73 71 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3134775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x3b558b9     DLC=14 DATA=[c4 48 3a 86 5c 37 93 3e ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3134775000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x3b558b9     DLC=14 DATA=[c4 48 3a 86 5c 37 93 3e ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3190975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x1e6     DLC=1 DATA=[26 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3190975000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x1e6     DLC=1 DATA=[26 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3326175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x1c31d43c     DLC=8 DATA=[4d 36 7f 66 7d 87 04 e7 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3326175000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x1c31d43c     DLC=8 DATA=[4d 36 7f 66 7d 87 04 e7 ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3394375000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x15d8f894 RTR DLC=8 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3394375000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x15d8f894 RTR DLC=8 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3466575000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x6c8     DLC=3 DATA=[9d 2e ac ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3466575000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x6c8     DLC=3 DATA=[9d 2e ac ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3516775000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus STD ID=0x165 RTR DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3516775000: uvm_test_top.env.sb [SB] TX MATCH  STD ID=0x165 RTR DLC=0 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3585975000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x6651f2 RTR DLC=5 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3585975000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x6651f2 RTR DLC=5 DATA=[]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(411) @ 3723175000: uvm_test_top.env.can_agt.mon [MON] FRAME DUT->bus EXT ID=0x6ea9722     DLC=8 DATA=[e7 de cb 58 3e b4 fe 8f ]
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(526) @ 3723175000: uvm_test_top.env.sb [SB] TX MATCH  EXT ID=0x6ea9722     DLC=8 DATA=[e7 de cb 58 3e b4 fe 8f ]
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 3884375000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(639) @ 3884375000: uvm_test_top.env.cov [COV] FUNCTIONAL COVERAGE: frame=81.5%  ecode=0.0%  irq=12.5%  fault=22.5%  bus_err=50.0%
+UVM_INFO D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv(545) @ 3884375000: uvm_test_top.env.sb [SB] SCOREBOARD: DUT-TX matched=40  DUT-RX matched=0  filtered-out=0  mismatches=0
+UVM_INFO tb/can_tests.sv(179) @ 3884375000: uvm_test_top [RESULT] 
+*** can_dut_tx_test : TEST PASSED (UVM_ERROR+FATAL = 0) ***
+UVM_INFO ÿÿ‚5.2Vivadodata/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 3884375000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   89
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]     1
+[MON]    40
+[NO_DPI_TSTNAME]     1
+[RESULT]     1
+[RNTST]     1
+[SB]    41
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[UVMTOP]     1
+
+$finish called at time : 3884375 ns : File "D:\2025.2\Vivado\data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 208.098 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 259528 KB (Peak: 259528 KB), Simulation CPU Usage: 15125 ms
+INFO: [Common 17-206] Exiting xsim at Fri Nov 13 16:03:53 2026...

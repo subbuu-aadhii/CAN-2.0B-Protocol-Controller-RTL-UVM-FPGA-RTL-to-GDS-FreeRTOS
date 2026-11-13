@@ -1,0 +1,5 @@
+-testplusarg UVM_TESTNAME=can_busoff_test
+-testplusarg UVM_VERBOSITY=UVM_LOW
+-sv_seed 17875
+-cov_db_name can_busoff_test
+-cov_db_dir ./func_cov_db

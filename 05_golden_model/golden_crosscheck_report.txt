@@ -1,0 +1,126 @@
+
+=== ack_error: 112 bus bits, 1 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     30] STD ID=0x3A5 DLC= 2 DATA=[34 12] CRC=0x59CF stuffbits=2 ACK=yes
+
+=== arb_std_ext: 215 bus bits, 3 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x123 DLC= 1 DATA=[51] CRC=0x7BAC stuffbits=2 ACK=yes
+   [bit     69] STD ID=0x123 RTR DLC= 1 DATA=[] CRC=0x5E04 stuffbits=2 ACK=yes
+   [bit    118] EXT ID=0x048C0000 DLC= 1 DATA=[E1] CRC=0x4425 stuffbits=4 ACK=yes
+
+=== arbitration: 159 bus bits, 2 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x122 DLC= 2 DATA=[B1 B1] CRC=0x5BB9 stuffbits=1 ACK=yes
+   [bit     76] STD ID=0x123 DLC= 2 DATA=[A0 A0] CRC=0x4E8A stuffbits=3 ACK=yes
+
+=== bus_off: 2858 bus bits, 1 valid frames, 32 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] ERROR-FRAME  (stuff error)
+   [bit     51] ERROR-FRAME  (stuff error)
+   [bit     90] ERROR-FRAME  (stuff error)
+   [bit    129] ERROR-FRAME  (stuff error)
+   [bit    168] ERROR-FRAME  (stuff error)
+   [bit    207] ERROR-FRAME  (stuff error)
+   [bit    246] ERROR-FRAME  (stuff error)
+   [bit    285] ERROR-FRAME  (stuff error)
+   [bit    324] ERROR-FRAME  (stuff error)
+   [bit    363] ERROR-FRAME  (stuff error)
+   [bit    402] ERROR-FRAME  (stuff error)
+   [bit    441] ERROR-FRAME  (stuff error)
+   [bit    480] ERROR-FRAME  (stuff error)
+   [bit    519] ERROR-FRAME  (stuff error)
+   [bit    558] ERROR-FRAME  (stuff error)
+   [bit    597] ERROR-FRAME  (stuff error)
+   [bit    640] ERROR-FRAME  (stuff error)
+   [bit    683] ERROR-FRAME  (stuff error)
+   [bit    726] ERROR-FRAME  (stuff error)
+   [bit    769] ERROR-FRAME  (stuff error)
+   [bit    812] ERROR-FRAME  (stuff error)
+   [bit    855] ERROR-FRAME  (stuff error)
+   [bit    898] ERROR-FRAME  (stuff error)
+   [bit    941] ERROR-FRAME  (stuff error)
+   [bit    984] ERROR-FRAME  (stuff error)
+   [bit   1027] ERROR-FRAME  (stuff error)
+   [bit   1070] ERROR-FRAME  (stuff error)
+   [bit   1113] ERROR-FRAME  (stuff error)
+   [bit   1156] ERROR-FRAME  (stuff error)
+   [bit   1199] ERROR-FRAME  (stuff error)
+   [bit   1242] ERROR-FRAME  (stuff error)
+   [bit   1285] ERROR-FRAME  (stuff error)
+   [bit   2718] STD ID=0x111 DLC= 8 DATA=[FF FF FF FF FF FF FF FF] CRC=0x2D50 stuffbits=12 ACK=yes
+
+=== error_inject: 191 bus bits, 1 valid frames, 1 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] ERROR-FRAME  (stuff error)
+   [bit     51] STD ID=0x2AA DLC= 8 DATA=[FF FF FF FF FF FF FF FF] CRC=0x22E7 stuffbits=12 ACK=yes
+
+=== ext_frame: 142 bus bits, 1 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] EXT ID=0x1ABCDE12 DLC= 5 DATA=[F0 E1 C3 A5 7E] CRC=0x3F66 stuffbits=6 ACK=yes
+
+=== filter: 276 bus bits, 4 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x105 DLC= 1 DATA=[11] CRC=0x3EEF stuffbits=3 ACK=yes
+   [bit     70] STD ID=0x205 DLC= 1 DATA=[22] CRC=0x52E0 stuffbits=3 ACK=yes
+   [bit    128] STD ID=0x105 RTR DLC= 0 DATA=[] CRC=0x2409 stuffbits=3 ACK=yes
+   [bit    178] EXT ID=0x00000105 DLC= 1 DATA=[33] CRC=0x35B1 stuffbits=5 ACK=yes
+
+=== form_error: 151 bus bits, 1 valid frames, 1 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] ERROR-FRAME  (form error in EOF)
+   [bit     78] STD ID=0x0C3 DLC= 1 DATA=[3C] CRC=0x5228 stuffbits=1 ACK=yes
+
+=== listen_only: 305 bus bits, 1 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x321 DLC= 3 DATA=[EE FF C0] CRC=0x6452 stuffbits=5 ACK=yes
+
+=== loopback: 175 bus bits, 0 valid frames, 1 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     13] ERROR-FRAME  (ACK error (no dominant ACK))
+
+=== overrun: 323 bus bits, 5 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x400 DLC= 1 DATA=[00] CRC=0x79D6 stuffbits=4 ACK=yes
+   [bit     71] STD ID=0x401 DLC= 1 DATA=[01] CRC=0x0445 stuffbits=3 ACK=yes
+   [bit    129] STD ID=0x402 DLC= 1 DATA=[02] CRC=0x4769 stuffbits=3 ACK=yes
+   [bit    187] STD ID=0x403 DLC= 1 DATA=[03] CRC=0x3AFA stuffbits=4 ACK=yes
+   [bit    246] STD ID=0x404 DLC= 1 DATA=[04] CRC=0x04A8 stuffbits=4 ACK=yes
+
+=== random_burst: 4060 bus bits, 36 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] EXT ID=0x12C28465 DLC= 2 DATA=[0D CD] CRC=0x048C stuffbits=2 ACK=yes
+   [bit     97] STD ID=0x53E DLC=13 DATA=[F9 E9 FD 7C 8C F7 2D 46] CRC=0x0E02 stuffbits=6 ACK=yes
+   [bit    214] STD ID=0x680 DLC= 9 DATA=[0D 7B B9 06 63 56 F0 B1] CRC=0x4F09 stuffbits=3 ACK=yes
+   [bit    328] STD ID=0x38D DLC= 2 DATA=[E8 7A] CRC=0x2FD5 stuffbits=2 ACK=yes
+   [bit    393] EXT ID=0x0E58495E DLC=13 DATA=[65 26 A7 B2 2D 58 AB 96] CRC=0x4BCD stuffbits=0 ACK=yes
+   [bit    524] STD ID=0x4C4 DLC=10 DATA=[77 72 D2 BB E5 F7 AF 72] CRC=0x3743 stuffbits=3 ACK=yes
+   [bit    638] EXT ID=0x05738708 DLC= 0 DATA=[] CRC=0x6628 stuffbits=4 ACK=yes
+   [bit    709] EXT ID=0x0AA62AD6 DLC= 2 DATA=[1D E9] CRC=0x0D0D stuffbits=1 ACK=yes
+   [bit    793] EXT ID=0x0B203E95 DLC= 3 DATA=[53 D6 A7] CRC=0x77DC stuffbits=4 ACK=yes
+   [bit    888] STD ID=0x189 DLC= 1 DATA=[78] CRC=0x4EF7 stuffbits=1 ACK=yes
+   [bit    944] EXT ID=0x11844920 DLC=10 DATA=[3C 4C 31 9E CA 0A 73 E5] CRC=0x3B5A stuffbits=3 ACK=yes
+   [bit   1078] EXT ID=0x15C50DEA DLC= 6 DATA=[AE 13 15 57 C6 F9] CRC=0x52A5 stuffbits=3 ACK=yes
+   [bit   1196] EXT ID=0x0C9C4BDA DLC= 2 DATA=[9F 55] CRC=0x39CF stuffbits=3 ACK=yes
+   [bit   1282] STD ID=0x528 DLC=11 DATA=[85 41 F2 42 71 BE 97 B8] CRC=0x361D stuffbits=4 ACK=yes
+   [bit   1397] EXT ID=0x1DCC6039 DLC=10 DATA=[15 4B AA 0A 7E 32 23 BF] CRC=0x42C5 stuffbits=4 ACK=yes
+   [bit   1532] EXT ID=0x04DE3789 DLC= 9 DATA=[D7 C0 FE EB D0 3E 23 E8] CRC=0x0E7E stuffbits=9 ACK=yes
+   [bit   1672] EXT ID=0x0B212F96 DLC=12 DATA=[C8 ED 57 64 C2 CE 2C E1] CRC=0x54F2 stuffbits=1 ACK=yes
+   [bit   1804] EXT ID=0x1C6DA9F8 DLC= 7 DATA=[5C 94 7D AE 9F 56 C4] CRC=0x4B0B stuffbits=4 ACK=yes
+   [bit   1931] EXT ID=0x048B4B4A DLC=15 DATA=[58 63 15 2C 2A AF 0C 15] CRC=0x7DB6 stuffbits=2 ACK=yes
+   [bit   2064] EXT ID=0x0FD28F1D DLC= 3 DATA=[78 88 14] CRC=0x31C3 stuffbits=3 ACK=yes
+   [bit   2158] EXT ID=0x1EF2ED3C DLC= 2 DATA=[6D 81] CRC=0x2AD4 stuffbits=2 ACK=yes
+   [bit   2243] EXT ID=0x118BB4A1 DLC=15 DATA=[5F 56 D8 AF B3 92 D2 D9] CRC=0x336F stuffbits=3 ACK=yes
+   [bit   2377] STD ID=0x48C DLC=12 DATA=[26 BC 7D 93 FA 99 35 7D] CRC=0x1AB3 stuffbits=4 ACK=yes
+   [bit   2492] STD ID=0x5F6 DLC=11 DATA=[5A DB 28 2D E6 1A 09 F3] CRC=0x523F stuffbits=5 ACK=yes
+   [bit   2608] EXT ID=0x076FCF0E DLC=12 DATA=[FD 72 DF FE 9A BC 5E CD] CRC=0x01F1 stuffbits=6 ACK=yes
+   [bit   2745] EXT ID=0x1682E2EC DLC=10 DATA=[B5 E2 8A DA 65 B6 9F B2] CRC=0x49D6 stuffbits=3 ACK=yes
+   [bit   2879] EXT ID=0x1CF11979 DLC= 4 DATA=[2A 0B 09 15] CRC=0x7421 stuffbits=1 ACK=yes
+   [bit   2979] EXT ID=0x023F2C06 DLC= 9 DATA=[4D DE FC A6 DB 69 CB 6D] CRC=0x2C86 stuffbits=3 ACK=yes
+   [bit   3113] STD ID=0x239 DLC= 9 DATA=[94 BF 74 4A B8 C4 2B DC] CRC=0x1A04 stuffbits=2 ACK=yes
+   [bit   3226] EXT ID=0x0B0EED54 DLC=14 DATA=[0A 34 31 85 67 76 D9 B3] CRC=0x3E18 stuffbits=5 ACK=yes
+   [bit   3362] EXT ID=0x03071A45 DLC= 4 DATA=[69 07 98 34] CRC=0x1467 stuffbits=5 ACK=yes
+   [bit   3466] STD ID=0x58A DLC= 8 DATA=[C7 30 C5 E3 2D 04 90 96] CRC=0x02D1 stuffbits=2 ACK=yes
+   [bit   3579] EXT ID=0x16A4266C DLC= 6 DATA=[B6 2D 17 5B CA 49] CRC=0x21F6 stuffbits=2 ACK=yes
+   [bit   3696] STD ID=0x408 DLC=12 DATA=[29 07 9E 14 FD A6 A7 FE] CRC=0x7D59 stuffbits=8 ACK=yes
+   [bit   3815] STD ID=0x472 DLC=10 DATA=[FA 79 47 7D 5E B3 3A 2F] CRC=0x0882 stuffbits=3 ACK=yes
+   [bit   3929] STD ID=0x785 DLC=10 DATA=[66 A7 4E 33 3D C6 B7 9E] CRC=0x583F stuffbits=2 ACK=yes
+
+=== remote_dlc: 321 bus bits, 4 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     13] STD ID=0x7FF RTR DLC= 4 DATA=[] CRC=0x0C25 stuffbits=3 ACK=yes
+   [bit     63] STD ID=0x000 DLC= 0 DATA=[] CRC=0x0000 stuffbits=6 ACK=yes
+   [bit    116] EXT ID=0x00000000 RTR DLC=15 DATA=[] CRC=0x122F stuffbits=5 ACK=yes
+   [bit    188] STD ID=0x555 DLC=12 DATA=[EF CD AB 89 67 45 23 01] CRC=0x002E stuffbits=3 ACK=yes
+
+=== std_frame: 142 bus bits, 1 valid frames, 0 error/aborted frames, bit-exact mismatches vs golden = 0
+   [bit     12] STD ID=0x123 DLC= 8 DATA=[11 22 33 44 55 66 77 88] CRC=0x4237 stuffbits=1 ACK=yes
+
+GOLDEN-MODEL CROSS-CHECK: 61 valid frames compared bit-exactly, 0 mismatches, 0 unexpected error frames -> PASS

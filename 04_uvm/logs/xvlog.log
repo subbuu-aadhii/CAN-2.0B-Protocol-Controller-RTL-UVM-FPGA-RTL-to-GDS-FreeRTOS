@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_crc15.v" into library work
+INFO: [VRFC 10-311] analyzing module can_crc15
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_btl.v" into library work
+INFO: [VRFC 10-311] analyzing module can_btl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_bsp.v" into library work
+INFO: [VRFC 10-311] analyzing module can_bsp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_acf.v" into library work
+INFO: [VRFC 10-311] analyzing module can_acf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_fifo.v" into library work
+INFO: [VRFC 10-311] analyzing module can_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_regs.v" into library work
+INFO: [VRFC 10-311] analyzing module can_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/01_rtl/can_top.v" into library work
+INFO: [VRFC 10-311] analyzing module can_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/04_uvm/tb/can_ifs.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/04_uvm/tb/can_uvm_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/04_uvm/tb/can_sva.sv" into library work
+INFO: [VRFC 10-311] analyzing module can_sva
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/CAN20B_Controller_Project/04_uvm/tb/tb_top.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_top

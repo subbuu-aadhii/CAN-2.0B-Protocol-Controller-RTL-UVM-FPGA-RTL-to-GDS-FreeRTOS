@@ -1,0 +1,7 @@
+Running: xsim.dir/can_uvm_snap/xsimk.exe -runall -simmode gui -testplusarg UVM_TESTNAME=can_dut_tx_test -wdb can_uvm_snap.wdb -simrunnum 0 -socket 55283
+Design successfully loaded
+Design Loading Memory Usage: 18056 KB (Peak: 18056 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 259528 KB (Peak: 259528 KB)
+Simulation CPU Usage: 15125 ms
