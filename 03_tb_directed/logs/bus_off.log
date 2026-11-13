@@ -1,0 +1,14 @@
+==================== TEST: bus_off ====================
+[2626071000] PASS  node0 BUS_OFF irq after 32 bit errors
+[2626131000] PASS  STATUS.BUS_OFF
+[2626191000] PASS  TEC > 255
+[2626191000] PASS  can_tx recessive while bus-off
+[5467051000] PASS  bus-off recovery after 128 x 11 recessive bits
+[5467111000] PASS  TEC/REC reset after recovery = 0x0
+[5706191000] PASS  pending frame transmitted after recovery
+[5706535000] PASS  after bus-off node1 RX ID  = 0x111
+[5706535000] PASS  after bus-off node1 RX IDE = 0x0
+[5706535000] PASS  after bus-off node1 RX RTR = 0x0
+[5706535000] PASS  after bus-off node1 RX DLC = 0x8
+[5706535000] PASS  after bus-off node1 RX DATA = 0xffffffffffffffff
+==================== RESULT bus_off : 12 passed, 0 failed => TEST PASSED

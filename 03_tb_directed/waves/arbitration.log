@@ -1,0 +1,18 @@
+VCD info: dumpfile wave_arbitration.vcd opened for output.
+==================== TEST: arbitration ====================
+[50791000] PASS  node0 (ID 0x123) lost arbitration
+[50851000] PASS  node0 arbitration-lost bit position (last ID bit) = 0xb
+[149341000] PASS  node1 (ID 0x122) won, TX_DONE
+[281291000] PASS  node0 automatic retransmission done
+[281652000] PASS  arb first  node2 RX ID  = 0x122
+[281652000] PASS  arb first  node2 RX IDE = 0x0
+[281652000] PASS  arb first  node2 RX RTR = 0x0
+[281652000] PASS  arb first  node2 RX DLC = 0x2
+[281652000] PASS  arb first  node2 RX DATA = 0xb1b1
+[282014000] PASS  arb second node2 RX ID  = 0x123
+[282014000] PASS  arb second node2 RX IDE = 0x0
+[282014000] PASS  arb second node2 RX RTR = 0x0
+[282014000] PASS  arb second node2 RX DLC = 0x2
+[282014000] PASS  arb second node2 RX DATA = 0xa0a0
+[282071000] PASS  arbitration loss is not an error (TEC=0) = 0x0
+==================== RESULT arbitration : 15 passed, 0 failed => TEST PASSED

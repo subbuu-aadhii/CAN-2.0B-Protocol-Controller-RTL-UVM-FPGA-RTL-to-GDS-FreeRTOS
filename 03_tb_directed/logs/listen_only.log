@@ -1,0 +1,9 @@
+==================== TEST: listen_only ====================
+[174171000] PASS  frame ACKed by node1
+[174519000] PASS  listen-only rx node2 RX ID  = 0x321
+[174519000] PASS  listen-only rx node2 RX IDE = 0x0
+[174519000] PASS  listen-only rx node2 RX RTR = 0x0
+[174519000] PASS  listen-only rx node2 RX DLC = 0x3
+[174519000] PASS  listen-only rx node2 RX DATA = 0xc0ffee
+[574821000] PASS  listen-only node never drove the bus (no ACK, no TX)
+==================== RESULT listen_only : 7 passed, 0 failed => TEST PASSED

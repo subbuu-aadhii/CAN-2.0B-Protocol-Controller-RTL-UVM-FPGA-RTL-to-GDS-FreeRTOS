@@ -1,0 +1,46 @@
+==================== TEST: remote_dlc ====================
+[122219000] PASS  remote frame TX_DONE
+[229751000] PASS  DLC0 TX_DONE
+[372311000] PASS  ext remote DLC15 TX_DONE
+[600235000] PASS  DLC12 TX_DONE
+[600591000] PASS  F1 remote node0 RX ID  = 0x7ff
+[600591000] PASS  F1 remote node0 RX IDE = 0x0
+[600591000] PASS  F1 remote node0 RX RTR = 0x1
+[600591000] PASS  F1 remote node0 RX DLC = 0x4
+[600591000] PASS  F1 remote node0 RX DATA = 0x0
+[600951000] PASS  F4 dlc12 node0 RX ID  = 0x555
+[600951000] PASS  F4 dlc12 node0 RX IDE = 0x0
+[600951000] PASS  F4 dlc12 node0 RX RTR = 0x0
+[600951000] PASS  F4 dlc12 node0 RX DLC = 0xc
+[600951000] PASS  F4 dlc12 node0 RX DATA = 0x123456789abcdef
+[601309000] PASS  F1 remote node1 RX ID  = 0x7ff
+[601309000] PASS  F1 remote node1 RX IDE = 0x0
+[601309000] PASS  F1 remote node1 RX RTR = 0x1
+[601309000] PASS  F1 remote node1 RX DLC = 0x4
+[601309000] PASS  F1 remote node1 RX DATA = 0x0
+[601668000] PASS  F2 dlc0 node1 RX ID  = 0x0
+[601668000] PASS  F2 dlc0 node1 RX IDE = 0x0
+[601668000] PASS  F2 dlc0 node1 RX RTR = 0x0
+[601668000] PASS  F2 dlc0 node1 RX DLC = 0x0
+[601668000] PASS  F2 dlc0 node1 RX DATA = 0x0
+[602026000] PASS  F3 ext remote node1 RX ID  = 0x0
+[602026000] PASS  F3 ext remote node1 RX IDE = 0x1
+[602026000] PASS  F3 ext remote node1 RX RTR = 0x1
+[602026000] PASS  F3 ext remote node1 RX DLC = 0xf
+[602026000] PASS  F3 ext remote node1 RX DATA = 0x0
+[602388000] PASS  F2 dlc0 node2 RX ID  = 0x0
+[602388000] PASS  F2 dlc0 node2 RX IDE = 0x0
+[602388000] PASS  F2 dlc0 node2 RX RTR = 0x0
+[602388000] PASS  F2 dlc0 node2 RX DLC = 0x0
+[602388000] PASS  F2 dlc0 node2 RX DATA = 0x0
+[602750000] PASS  F3 ext remote node2 RX ID  = 0x0
+[602750000] PASS  F3 ext remote node2 RX IDE = 0x1
+[602750000] PASS  F3 ext remote node2 RX RTR = 0x1
+[602750000] PASS  F3 ext remote node2 RX DLC = 0xf
+[602750000] PASS  F3 ext remote node2 RX DATA = 0x0
+[603112000] PASS  F4 dlc12 node2 RX ID  = 0x555
+[603112000] PASS  F4 dlc12 node2 RX IDE = 0x0
+[603112000] PASS  F4 dlc12 node2 RX RTR = 0x0
+[603112000] PASS  F4 dlc12 node2 RX DLC = 0xc
+[603112000] PASS  F4 dlc12 node2 RX DATA = 0x123456789abcdef
+==================== RESULT remote_dlc : 44 passed, 0 failed => TEST PASSED

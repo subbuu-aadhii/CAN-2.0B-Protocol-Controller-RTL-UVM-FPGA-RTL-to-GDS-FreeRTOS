@@ -1,0 +1,411 @@
+8.25. Printing statistics.
+
+=== can_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       66 wires
+      369 wire bits
+       63 public wires
+      366 public wire bits
+       13 ports
+       82 port bits
+        7 cells
+        2   $_DFF_PN1_
+        1   $_MUX_
+        1   $_NAND_
+        2   $_NOR_
+        1   $_NOT_
+        3 submodules
+        1   $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+        1   can_bsp
+        1   can_btl
+
+=== $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      878 wires
+     1633 wire bits
+       75 public wires
+      821 public wire bits
+       50 ports
+      353 port bits
+     1057 cells
+       12   $_ANDNOT_
+      394   $_AND_
+      155   $_DFFE_PN0P_
+       39   $_DFFE_PN1P_
+       16   $_DFF_PN0_
+      425   $_NAND_
+        4   $_NOR_
+        4   $_ORNOT_
+        6   $_OR_
+        2   $_XNOR_
+        2 submodules
+        1   $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo
+        1   can_acf
+
+=== $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      240 wires
+      836 wire bits
+       16 public wires
+      608 public wire bits
+       10 ports
+      208 port bits
+      732 cells
+        7   $_ANDNOT_
+        6   $_AND_
+        7   $_DFFE_PN0P_
+      396   $_DFFE_PP_
+      298   $_MUX_
+        1   $_NAND_
+        9   $_NOR_
+        1   $_ORNOT_
+        3   $_OR_
+        3   $_XNOR_
+        1   $_XOR_
+
+=== can_acf ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      140 wires
+      258 wire bits
+        7 public wires
+      125 public wire bits
+        6 ports
+       94 port bits
+      134 cells
+       53   $_AND_
+       19   $_NAND_
+       19   $_NOR_
+       24   $_OR_
+       19   $_XNOR_
+
+=== can_bsp ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1495 wires
+     2107 wire bits
+       64 public wires
+      517 public wire bits
+       43 ports
+      262 port bits
+     1837 cells
+      127   $_ANDNOT_
+      526   $_AND_
+      232   $_DFFE_PN0P_
+        3   $_DFFE_PN1P_
+        8   $_DFF_PN0_
+      209   $_MUX_
+      490   $_NAND_
+       39   $_NOR_
+       12   $_NOT_
+       61   $_ORNOT_
+       87   $_OR_
+       28   $_XNOR_
+       15   $_XOR_
+        1 submodules
+        1   can_crc15
+
+=== can_btl ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      294 wires
+      351 wire bits
+       22 public wires
+       59 public wire bits
+       15 ports
+       30 port bits
+      326 cells
+       14   $_ANDNOT_
+       87   $_AND_
+       13   $_DFFE_PN0P_
+        3   $_DFFE_PN1P_
+       16   $_DFF_PN0_
+        2   $_DFF_PN1_
+       10   $_MUX_
+       77   $_NAND_
+        7   $_NOR_
+        4   $_NOT_
+       21   $_ORNOT_
+       27   $_OR_
+       26   $_XNOR_
+       19   $_XOR_
+
+=== can_crc15 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       33 wire bits
+        4 public wires
+       32 public wire bits
+        3 ports
+       31 port bits
+        8 cells
+        1   $_NOT_
+        7   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     4101 can_top
+     1057 $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+      732   $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo
+      134   can_acf
+     1837 can_bsp
+        8   can_crc15
+      326 can_btl
+
+        +----------Count including submodules.
+        | 
+     3118 wires
+     5587 wire bits
+      251 public wires
+     2528 public wire bits
+      140 ports
+     1060 port bits
+        - memories
+        - memory bits
+        - processes
+     4101 cells
+      160   $_ANDNOT_
+     1066   $_AND_
+      407   $_DFFE_PN0P_
+       45   $_DFFE_PN1P_
+      396   $_DFFE_PP_
+       40   $_DFF_PN0_
+        4   $_DFF_PN1_
+      518   $_MUX_
+     1013   $_NAND_
+       80   $_NOR_
+       18   $_NOT_
+       87   $_ORNOT_
+      147   $_OR_
+       85   $_XNOR_
+       35   $_XOR_
+        3 submodules
+        1   $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+        1   can_bsp
+        1   can_btl
+
+8.26. Executing CHECK pass (checking for obvious problems).
+Checking module can_top...
+Checking module $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs...
+Checking module $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo...
+Checking module can_acf...
+Checking module can_bsp...
+Checking module can_btl...
+Checking module can_crc15...
+Found and reported 0 problems.
+
+9. Printing statistics.
+
+=== can_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       66 wires
+      369 wire bits
+       63 public wires
+      366 public wire bits
+       13 ports
+       82 port bits
+        7 cells
+        2   $_DFF_PN1_
+        1   $_MUX_
+        1   $_NAND_
+        2   $_NOR_
+        1   $_NOT_
+        3 submodules
+        1   $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+        1   can_bsp
+        1   can_btl
+
+=== $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      878 wires
+     1633 wire bits
+       75 public wires
+      821 public wire bits
+       50 ports
+      353 port bits
+     1057 cells
+       12   $_ANDNOT_
+      394   $_AND_
+      155   $_DFFE_PN0P_
+       39   $_DFFE_PN1P_
+       16   $_DFF_PN0_
+      425   $_NAND_
+        4   $_NOR_
+        4   $_ORNOT_
+        6   $_OR_
+        2   $_XNOR_
+        2 submodules
+        1   $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo
+        1   can_acf
+
+=== $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      240 wires
+      836 wire bits
+       16 public wires
+      608 public wire bits
+       10 ports
+      208 port bits
+      732 cells
+        7   $_ANDNOT_
+        6   $_AND_
+        7   $_DFFE_PN0P_
+      396   $_DFFE_PP_
+      298   $_MUX_
+        1   $_NAND_
+        9   $_NOR_
+        1   $_ORNOT_
+        3   $_OR_
+        3   $_XNOR_
+        1   $_XOR_
+
+=== can_acf ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      140 wires
+      258 wire bits
+        7 public wires
+      125 public wire bits
+        6 ports
+       94 port bits
+      134 cells
+       53   $_AND_
+       19   $_NAND_
+       19   $_NOR_
+       24   $_OR_
+       19   $_XNOR_
+
+=== can_bsp ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1495 wires
+     2107 wire bits
+       64 public wires
+      517 public wire bits
+       43 ports
+      262 port bits
+     1837 cells
+      127   $_ANDNOT_
+      526   $_AND_
+      232   $_DFFE_PN0P_
+        3   $_DFFE_PN1P_
+        8   $_DFF_PN0_
+      209   $_MUX_
+      490   $_NAND_
+       39   $_NOR_
+       12   $_NOT_
+       61   $_ORNOT_
+       87   $_OR_
+       28   $_XNOR_
+       15   $_XOR_
+        1 submodules
+        1   can_crc15
+
+=== can_btl ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      294 wires
+      351 wire bits
+       22 public wires
+       59 public wire bits
+       15 ports
+       30 port bits
+      326 cells
+       14   $_ANDNOT_
+       87   $_AND_
+       13   $_DFFE_PN0P_
+        3   $_DFFE_PN1P_
+       16   $_DFF_PN0_
+        2   $_DFF_PN1_
+       10   $_MUX_
+       77   $_NAND_
+        7   $_NOR_
+        4   $_NOT_
+       21   $_ORNOT_
+       27   $_OR_
+       26   $_XNOR_
+       19   $_XOR_
+
+=== can_crc15 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       33 wire bits
+        4 public wires
+       32 public wire bits
+        3 ports
+       31 port bits
+        8 cells
+        1   $_NOT_
+        7   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     4101 can_top
+     1057 $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+      732   $paramod$d0508488a0f6a6aaf28ccc8b2c017d6d98f76bbe\can_fifo
+      134   can_acf
+     1837 can_bsp
+        8   can_crc15
+      326 can_btl
+
+        +----------Count including submodules.
+        | 
+     3118 wires
+     5587 wire bits
+      251 public wires
+     2528 public wire bits
+      140 ports
+     1060 port bits
+        - memories
+        - memory bits
+        - processes
+     4101 cells
+      160   $_ANDNOT_
+     1066   $_AND_
+      407   $_DFFE_PN0P_
+       45   $_DFFE_PN1P_
+      396   $_DFFE_PP_
+       40   $_DFF_PN0_
+        4   $_DFF_PN1_
+      518   $_MUX_
+     1013   $_NAND_
+       80   $_NOR_
+       18   $_NOT_
+       87   $_ORNOT_
+      147   $_OR_
+       85   $_XNOR_
+       35   $_XOR_
+        3 submodules
+        1   $paramod$55b557a233a424f83a880e582729f240372c4dfa\can_regs
+        1   can_bsp
+        1   can_btl
+
+End of script. Logfile hash: 1c7eef3341, time: 3.84s, user: 2.01s, system: 0.14s, MEM: 52.09 MB peak
+Yosys 0.66 (git sha1 86f2ddebc, g++ 11.4.0-1ubuntu1~22.04.3 -fPIC -O3)
+Time spent: 46% 1x abc (1 sec), 10% 31x opt_clean (0 sec), ...

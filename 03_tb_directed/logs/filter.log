@@ -1,0 +1,28 @@
+==================== TEST: filter ====================
+[513630000] PASS  filter accept node1 RX ID  = 0x105
+[513630000] PASS  filter accept node1 RX IDE = 0x0
+[513630000] PASS  filter accept node1 RX RTR = 0x0
+[513630000] PASS  filter accept node1 RX DLC = 0x1
+[513630000] PASS  filter accept node1 RX DATA = 0x11
+[513690000] PASS  filter rejects 0x205/remote/ext node1 RX FIFO empty
+[514048000] PASS  nofilter#1 node2 RX ID  = 0x105
+[514048000] PASS  nofilter#1 node2 RX IDE = 0x0
+[514048000] PASS  nofilter#1 node2 RX RTR = 0x0
+[514048000] PASS  nofilter#1 node2 RX DLC = 0x1
+[514048000] PASS  nofilter#1 node2 RX DATA = 0x11
+[514410000] PASS  nofilter#2 node2 RX ID  = 0x205
+[514410000] PASS  nofilter#2 node2 RX IDE = 0x0
+[514410000] PASS  nofilter#2 node2 RX RTR = 0x0
+[514410000] PASS  nofilter#2 node2 RX DLC = 0x1
+[514410000] PASS  nofilter#2 node2 RX DATA = 0x22
+[514772000] PASS  nofilter#3 node2 RX ID  = 0x105
+[514772000] PASS  nofilter#3 node2 RX IDE = 0x0
+[514772000] PASS  nofilter#3 node2 RX RTR = 0x1
+[514772000] PASS  nofilter#3 node2 RX DLC = 0x0
+[514772000] PASS  nofilter#3 node2 RX DATA = 0x0
+[515134000] PASS  nofilter#4 node2 RX ID  = 0x105
+[515134000] PASS  nofilter#4 node2 RX IDE = 0x1
+[515134000] PASS  nofilter#4 node2 RX RTR = 0x0
+[515134000] PASS  nofilter#4 node2 RX DLC = 0x1
+[515134000] PASS  nofilter#4 node2 RX DATA = 0x33
+==================== RESULT filter : 26 passed, 0 failed => TEST PASSED

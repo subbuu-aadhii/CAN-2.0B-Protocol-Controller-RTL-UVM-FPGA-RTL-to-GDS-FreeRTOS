@@ -1,0 +1,4 @@
+==================== TEST: single_shot ====================
+[119791000] PASS  single-shot: TX_FAIL after first ACK error
+[519851000] PASS  single-shot: only one attempt (TEC=8) = 0x8
+==================== RESULT single_shot : 2 passed, 0 failed => TEST PASSED

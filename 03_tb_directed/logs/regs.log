@@ -1,0 +1,13 @@
+==================== TEST: regs ====================
+[251000] PASS  VERSION = 0xca20b100
+[311000] PASS  CTRL reset value (RESET_MODE=1) = 0x1
+[371000] PASS  BTR reset value = 0x13e004
+[431000] PASS  AMR reset value (accept all) = 0x7fffffff
+[491000] PASS  STATUS: TX buffer free, RX empty = 0x4
+[611000] PASS  BTR writable in reset mode = 0x123005
+[791000] PASS  BTR write-protected in operating mode = 0x123005
+[911000] PASS  TX_ID read-back = 0x4abcdef1
+[1031000] PASS  IRQ_EN width (10 bits) = 0x3ff
+[1091000] PASS  TEC/REC after reset = 0x0
+[1091000] PASS  pready always 1 / pslverr 0
+==================== RESULT regs : 11 passed, 0 failed => TEST PASSED

@@ -1,0 +1,9 @@
+==================== TEST: loopback ====================
+[312064000] PASS  loopback: TX_DONE without external ACK
+[312425000] PASS  loopback self-rx node2 RX ID  = 0x1fffffff
+[312425000] PASS  loopback self-rx node2 RX IDE = 0x1
+[312425000] PASS  loopback self-rx node2 RX RTR = 0x0
+[312425000] PASS  loopback self-rx node2 RX DLC = 0x8
+[312425000] PASS  loopback self-rx node2 RX DATA = 0x102030405060708
+[312425000] PASS  loopback: can_tx pin stays recessive
+==================== RESULT loopback : 7 passed, 0 failed => TEST PASSED

@@ -1,0 +1,11 @@
+==================== TEST: ack_error ====================
+[2266311000] PASS  ACK errors -> ERROR_PASSIVE irq
+[2266371000] PASS  error code = ACK error during TX = 0xd
+[5266431000] PASS  TEC frozen at 128 (passive ACK-error exception) = 0x80
+[5266491000] PASS  error-passive, NOT bus-off
+[5266671000] PASS  abort -> TX_FAIL irq
+[5266731000] PASS  TX buffer free after abort
+[5453631000] PASS  TX succeeds once nodes ACK
+[5453691000] PASS  TEC 128 -> 127 after success = 0x7f
+[5453751000] PASS  back to error-active (TEC <= 127)
+==================== RESULT ack_error : 9 passed, 0 failed => TEST PASSED

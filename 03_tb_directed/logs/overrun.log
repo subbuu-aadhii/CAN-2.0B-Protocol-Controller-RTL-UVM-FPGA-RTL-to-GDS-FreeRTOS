@@ -1,0 +1,25 @@
+==================== TEST: overrun ====================
+[608553000] PASS  OVERRUN irq on 5th frame (FIFO depth 4)
+[608613000] PASS  STATUS.OVERRUN and count=4
+[608971000] PASS  fifo order node1 RX ID  = 0x400
+[608971000] PASS  fifo order node1 RX IDE = 0x0
+[608971000] PASS  fifo order node1 RX RTR = 0x0
+[608971000] PASS  fifo order node1 RX DLC = 0x1
+[608971000] PASS  fifo order node1 RX DATA = 0x0
+[609329000] PASS  fifo order node1 RX ID  = 0x401
+[609329000] PASS  fifo order node1 RX IDE = 0x0
+[609329000] PASS  fifo order node1 RX RTR = 0x0
+[609329000] PASS  fifo order node1 RX DLC = 0x1
+[609329000] PASS  fifo order node1 RX DATA = 0x1
+[609687000] PASS  fifo order node1 RX ID  = 0x402
+[609687000] PASS  fifo order node1 RX IDE = 0x0
+[609687000] PASS  fifo order node1 RX RTR = 0x0
+[609687000] PASS  fifo order node1 RX DLC = 0x1
+[609687000] PASS  fifo order node1 RX DATA = 0x2
+[610045000] PASS  fifo order node1 RX ID  = 0x403
+[610045000] PASS  fifo order node1 RX IDE = 0x0
+[610045000] PASS  fifo order node1 RX RTR = 0x0
+[610045000] PASS  fifo order node1 RX DLC = 0x1
+[610045000] PASS  fifo order node1 RX DATA = 0x3
+[610165000] PASS  overrun cleared by CMD
+==================== RESULT overrun : 23 passed, 0 failed => TEST PASSED

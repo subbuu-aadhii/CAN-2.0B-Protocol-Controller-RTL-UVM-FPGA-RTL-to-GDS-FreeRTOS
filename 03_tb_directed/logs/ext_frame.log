@@ -1,0 +1,13 @@
+==================== TEST: ext_frame ====================
+[247209000] PASS  ext frame: TX_DONE
+[247551000] PASS  ext node0 RX ID  = 0x1abcde12
+[247551000] PASS  ext node0 RX IDE = 0x1
+[247551000] PASS  ext node0 RX RTR = 0x0
+[247551000] PASS  ext node0 RX DLC = 0x5
+[247551000] PASS  ext node0 RX DATA = 0x7ea5c3e1f0
+[247904000] PASS  ext node2 RX ID  = 0x1abcde12
+[247904000] PASS  ext node2 RX IDE = 0x1
+[247904000] PASS  ext node2 RX RTR = 0x0
+[247904000] PASS  ext node2 RX DLC = 0x5
+[247904000] PASS  ext node2 RX DATA = 0x7ea5c3e1f0
+==================== RESULT ext_frame : 11 passed, 0 failed => TEST PASSED

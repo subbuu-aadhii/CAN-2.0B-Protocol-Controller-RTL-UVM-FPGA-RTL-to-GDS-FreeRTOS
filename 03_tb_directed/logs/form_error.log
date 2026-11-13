@@ -1,0 +1,11 @@
+==================== TEST: form_error ====================
+[124871000] PASS  node0 detects error in EOF
+[124931000] PASS  node0 error = FORM error (receiver, EOF state) = 0xf4
+[264422000] PASS  node1 retransmits successfully
+[264771000] PASS  form node0 RX ID  = 0xc3
+[264771000] PASS  form node0 RX IDE = 0x0
+[264771000] PASS  form node0 RX RTR = 0x0
+[264771000] PASS  form node0 RX DLC = 0x1
+[264771000] PASS  form node0 RX DATA = 0x3c
+[264831000] PASS  form-error frame not stored node0 RX FIFO empty
+==================== RESULT form_error : 9 passed, 0 failed => TEST PASSED

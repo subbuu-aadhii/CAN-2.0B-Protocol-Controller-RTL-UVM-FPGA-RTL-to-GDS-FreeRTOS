@@ -1,0 +1,15 @@
+==================== TEST: error_inject ====================
+[67051000] PASS  node0 BUS_ERR irq
+[67111000] PASS  node0 error = BIT error during TX = 0x9
+[71313000] PASS  node1 BUS_ERR irq
+[71372000] PASS  node1 error = STUFF error (sees error flag) = 0x2
+[345471000] PASS  retransmission succeeds
+[345531000] PASS  node0 TEC = 8 - 1 = 7 = 0x7
+[345574000] PASS  node1 REC = 1 - 1 = 0 = 0x0
+[345933000] PASS  after error node1 RX ID  = 0x2aa
+[345933000] PASS  after error node1 RX IDE = 0x0
+[345933000] PASS  after error node1 RX RTR = 0x0
+[345933000] PASS  after error node1 RX DLC = 0x8
+[345933000] PASS  after error node1 RX DATA = 0xffffffffffffffff
+[345992000] PASS  corrupted frame discarded (exactly one copy) node1 RX FIFO empty
+==================== RESULT error_inject : 13 passed, 0 failed => TEST PASSED

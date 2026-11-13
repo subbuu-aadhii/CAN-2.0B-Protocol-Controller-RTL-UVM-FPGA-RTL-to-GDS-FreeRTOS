@@ -1,0 +1,25 @@
+==================== TEST: arb_std_ext ====================
+[134953000] PASS  std data frame wins (RTR dominant)
+[233473000] PASS  std remote frame second (IDE dominant beats ext)
+[392211000] PASS  ext frame last
+[392571000] PASS  stdext n0 #1 node0 RX ID  = 0x123
+[392571000] PASS  stdext n0 #1 node0 RX IDE = 0x0
+[392571000] PASS  stdext n0 #1 node0 RX RTR = 0x0
+[392571000] PASS  stdext n0 #1 node0 RX DLC = 0x1
+[392571000] PASS  stdext n0 #1 node0 RX DATA = 0x51
+[392931000] PASS  stdext n0 #2 node0 RX ID  = 0x123
+[392931000] PASS  stdext n0 #2 node0 RX IDE = 0x0
+[392931000] PASS  stdext n0 #2 node0 RX RTR = 0x1
+[392931000] PASS  stdext n0 #2 node0 RX DLC = 0x1
+[392931000] PASS  stdext n0 #2 node0 RX DATA = 0x0
+[393275000] PASS  stdext n1 #1 node1 RX ID  = 0x123
+[393275000] PASS  stdext n1 #1 node1 RX IDE = 0x0
+[393275000] PASS  stdext n1 #1 node1 RX RTR = 0x1
+[393275000] PASS  stdext n1 #1 node1 RX DLC = 0x1
+[393275000] PASS  stdext n1 #1 node1 RX DATA = 0x0
+[393633000] PASS  stdext n1 #2 node1 RX ID  = 0x48c0000
+[393633000] PASS  stdext n1 #2 node1 RX IDE = 0x1
+[393633000] PASS  stdext n1 #2 node1 RX RTR = 0x0
+[393633000] PASS  stdext n1 #2 node1 RX DLC = 0x1
+[393633000] PASS  stdext n1 #2 node1 RX DATA = 0xe1
+==================== RESULT arb_std_ext : 23 passed, 0 failed => TEST PASSED

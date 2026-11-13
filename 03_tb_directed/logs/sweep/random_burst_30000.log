@@ -1,0 +1,174 @@
+==================== TEST: random_burst ====================
+[2026451000] FAIL  burst r0 node0 TX_DONE
+[4027110000] FAIL  burst r0 node1 TX_DONE
+[5546769000] PASS  burst r0 node2 TX_DONE
+[5547111000] FAIL  burst r0 node0 RX ID  : got 0x53e expected 0x12c28465
+[5547111000] FAIL  burst r0 node0 RX IDE : got 0x0 expected 0x1
+[5547111000] PASS  burst r0 node0 RX RTR = 0x0
+[5547111000] FAIL  burst r0 node0 RX DLC : got 0xd expected 0x2
+[5547111000] FAIL  burst r0 node0 RX DATA : got 0x462df78c7cfde9f9 expected 0xcd0d
+[5547161000] FAIL  burst r0 node2 RX FIFO not empty
+[5547211000] FAIL  burst r0 node0 RX FIFO not empty
+[5547267000] FAIL  burst r0 node1 RX FIFO not empty
+[5547326000] FAIL  burst r0 node1 RX FIFO not empty
+[5547387000] FAIL  burst r0 node2 RX FIFO not empty
+[6042631000] PASS  burst r1 node0 TX_DONE
+[8043296000] FAIL  burst r1 node1 TX_DONE
+[8043402000] PASS  burst r1 node2 TX_DONE
+[8043751000] FAIL  burst r1 node0 RX ID  : got 0xe58495e expected 0x38d
+[8043751000] FAIL  burst r1 node0 RX IDE : got 0x1 expected 0x0
+[8043751000] PASS  burst r1 node0 RX RTR = 0x0
+[8043751000] FAIL  burst r1 node0 RX DLC : got 0xd expected 0x2
+[8043751000] FAIL  burst r1 node0 RX DATA : got 0x96ab582db2a72665 expected 0x7ae8
+[8044103000] FAIL  burst r1 node2 RX ID  : got 0x680 expected 0x38d
+[8044103000] PASS  burst r1 node2 RX IDE = 0x0
+[8044103000] PASS  burst r1 node2 RX RTR = 0x0
+[8044103000] FAIL  burst r1 node2 RX DLC : got 0x9 expected 0x2
+[8044103000] FAIL  burst r1 node2 RX DATA : got 0xb1f0566306b97b0d expected 0x7ae8
+[8044151000] FAIL  burst r1 node0 RX FIFO not empty
+[8044208000] FAIL  burst r1 node1 RX FIFO not empty
+[8044267000] FAIL  burst r1 node1 RX FIFO not empty
+[8044310000] FAIL  burst r1 node2 RX FIFO not empty
+[10045311000] FAIL  burst r2 node0 TX_DONE
+[12045986000] FAIL  burst r2 node1 TX_DONE
+[14047983000] FAIL  burst r2 node2 TX_DONE
+[14048040000] FAIL  burst r2 node1 RX FIFO not empty
+[14048086000] FAIL  burst r2 node2 RX FIFO not empty
+[14048131000] FAIL  burst r2 node0 RX FIFO not empty
+[14048176000] FAIL  burst r2 node1 RX FIFO not empty
+[14048231000] FAIL  burst r2 node0 RX FIFO not empty
+[14048292000] FAIL  burst r2 node2 RX FIFO not empty
+[16049311000] FAIL  burst r3 node0 TX_DONE
+[18049974000] FAIL  burst r3 node1 TX_DONE
+[20051965000] FAIL  burst r3 node2 TX_DONE
+[20052011000] FAIL  burst r3 node0 RX FIFO not empty
+[20052068000] FAIL  burst r3 node2 RX FIFO not empty
+[20052416000] FAIL  burst r3 node1 RX ID  : got 0xaa62ad6 expected 0x11844920
+[20052416000] PASS  burst r3 node1 RX IDE = 0x1
+[20052416000] PASS  burst r3 node1 RX RTR = 0x0
+[20052416000] FAIL  burst r3 node1 RX DLC : got 0x2 expected 0xa
+[20052416000] FAIL  burst r3 node1 RX DATA : got 0xe91d expected 0xe5730aca9e314c3c
+[20052460000] FAIL  burst r3 node2 RX FIFO not empty
+[20052511000] FAIL  burst r3 node0 RX FIFO not empty
+[20052843000] FAIL  burst r3 node1 RX ID  : got 0xaa62ad6 expected 0x15c50dea
+[20052843000] PASS  burst r3 node1 RX IDE = 0x1
+[20052843000] PASS  burst r3 node1 RX RTR = 0x0
+[20052843000] FAIL  burst r3 node1 RX DLC : got 0x2 expected 0x6
+[20052843000] FAIL  burst r3 node1 RX DATA : got 0xe91d expected 0xf9c6571513ae
+[22053851000] FAIL  burst r4 node0 TX_DONE
+[24054524000] FAIL  burst r4 node1 TX_DONE
+[26056524000] FAIL  burst r4 node2 TX_DONE
+[26056571000] FAIL  burst r4 node0 RX FIFO not empty
+[26056908000] FAIL  burst r4 node1 RX ID  : got 0xaa62ad6 expected 0xc9c4bda
+[26056908000] PASS  burst r4 node1 RX IDE = 0x1
+[26056908000] PASS  burst r4 node1 RX RTR = 0x0
+[26056908000] PASS  burst r4 node1 RX DLC = 0x2
+[26056908000] FAIL  burst r4 node1 RX DATA : got 0xe91d expected 0x559f
+[26057258000] FAIL  burst r4 node1 RX ID  : got 0xaa62ad6 expected 0x528
+[26057258000] FAIL  burst r4 node1 RX IDE : got 0x1 expected 0x0
+[26057258000] PASS  burst r4 node1 RX RTR = 0x0
+[26057258000] FAIL  burst r4 node1 RX DLC : got 0x2 expected 0xb
+[26057258000] FAIL  burst r4 node1 RX DATA : got 0xe91d expected 0xb897be7142f24185
+[26057308000] FAIL  burst r4 node2 RX FIFO not empty
+[26057351000] FAIL  burst r4 node0 RX FIFO not empty
+[26057411000] FAIL  burst r4 node2 RX FIFO not empty
+[28058431000] FAIL  burst r5 node0 TX_DONE
+[30059094000] FAIL  burst r5 node1 TX_DONE
+[32061084000] FAIL  burst r5 node2 TX_DONE
+[32061131000] FAIL  burst r5 node0 RX FIFO not empty
+[32061187000] FAIL  burst r5 node2 RX FIFO not empty
+[32061231000] FAIL  burst r5 node0 RX FIFO not empty
+[32061575000] FAIL  burst r5 node1 RX ID  : got 0xaa62ad6 expected 0xb212f96
+[32061575000] PASS  burst r5 node1 RX IDE = 0x1
+[32061575000] PASS  burst r5 node1 RX RTR = 0x0
+[32061575000] FAIL  burst r5 node1 RX DLC : got 0x2 expected 0xc
+[32061575000] FAIL  burst r5 node1 RX DATA : got 0xe91d expected 0xe12ccec26457edc8
+[32061925000] FAIL  burst r5 node1 RX ID  : got 0xaa62ad6 expected 0x1c6da9f8
+[32061925000] PASS  burst r5 node1 RX IDE = 0x1
+[32061925000] PASS  burst r5 node1 RX RTR = 0x0
+[32061925000] FAIL  burst r5 node1 RX DLC : got 0x2 expected 0x7
+[32061925000] FAIL  burst r5 node1 RX DATA : got 0xe91d expected 0xc4569fae7d945c
+[32061970000] FAIL  burst r5 node2 RX FIFO not empty
+[34062991000] FAIL  burst r6 node0 TX_DONE
+[36063664000] FAIL  burst r6 node1 TX_DONE
+[38065664000] FAIL  burst r6 node2 TX_DONE
+[38065711000] FAIL  burst r6 node0 RX FIFO not empty
+[38065757000] FAIL  burst r6 node1 RX FIFO not empty
+[38065811000] FAIL  burst r6 node0 RX FIFO not empty
+[38065870000] FAIL  burst r6 node2 RX FIFO not empty
+[38065912000] FAIL  burst r6 node1 RX FIFO not empty
+[38065973000] FAIL  burst r6 node2 RX FIFO not empty
+[40066991000] FAIL  burst r7 node0 TX_DONE
+[42067651000] FAIL  burst r7 node1 TX_DONE
+[44069646000] FAIL  burst r7 node2 TX_DONE
+[44069691000] FAIL  burst r7 node0 RX FIFO not empty
+[44069749000] FAIL  burst r7 node2 RX FIFO not empty
+[44070094000] FAIL  burst r7 node1 RX ID  : got 0x5738708 expected 0x48c
+[44070094000] FAIL  burst r7 node1 RX IDE : got 0x1 expected 0x0
+[44070094000] PASS  burst r7 node1 RX RTR = 0x0
+[44070094000] FAIL  burst r7 node1 RX DLC : got 0x0 expected 0xc
+[44070094000] FAIL  burst r7 node1 RX DATA : got 0x0 expected 0x7d3599fa937dbc26
+[44070141000] FAIL  burst r7 node2 RX FIFO not empty
+[44070191000] FAIL  burst r7 node0 RX FIFO not empty
+[44070249000] FAIL  burst r7 node1 RX FIFO not empty
+[44071091000] PASS  burst r8 node0 TX_DONE
+[44110308000] PASS  burst r8 node1 TX_DONE
+[46112313000] FAIL  burst r8 node2 TX_DONE
+[46112671000] FAIL  burst r8 node0 RX ID  : got 0x12c28465 expected 0x76fcf0e
+[46112671000] PASS  burst r8 node0 RX IDE = 0x1
+[46112671000] PASS  burst r8 node0 RX RTR = 0x0
+[46112671000] FAIL  burst r8 node0 RX DLC : got 0x2 expected 0xc
+[46112671000] FAIL  burst r8 node0 RX DATA : got 0xcd0d expected 0xcd5ebc9afedf72fd
+[46113003000] FAIL  burst r8 node1 RX ID  : got 0x1682e2ec expected 0x76fcf0e
+[46113003000] PASS  burst r8 node1 RX IDE = 0x1
+[46113003000] PASS  burst r8 node1 RX RTR = 0x0
+[46113003000] FAIL  burst r8 node1 RX DLC : got 0xa expected 0xc
+[46113003000] FAIL  burst r8 node1 RX DATA : got 0xb29fb665da8ae2b5 expected 0xcd5ebc9afedf72fd
+[46113062000] FAIL  burst r8 node1 RX FIFO not empty
+[46113117000] FAIL  burst r8 node2 RX FIFO not empty
+[46113171000] FAIL  burst r8 node0 RX FIFO not empty
+[46113220000] FAIL  burst r8 node2 RX FIFO not empty
+[46114091000] PASS  burst r9 node0 TX_DONE
+[46330330000] PASS  burst r9 node1 TX_DONE
+[48332335000] FAIL  burst r9 node2 TX_DONE
+[48332691000] FAIL  burst r9 node0 RX ID  : got 0x239 expected 0x23f2c06
+[48332691000] FAIL  burst r9 node0 RX IDE : got 0x0 expected 0x1
+[48332691000] PASS  burst r9 node0 RX RTR = 0x0
+[48332691000] PASS  burst r9 node0 RX DLC = 0x9
+[48332691000] FAIL  burst r9 node0 RX DATA : got 0xdc2bc4b84a74bf94 expected 0x6dcb69dba6fcde4d
+[48333024000] FAIL  burst r9 node1 RX ID  : got 0xb0eed54 expected 0x23f2c06
+[48333024000] PASS  burst r9 node1 RX IDE = 0x1
+[48333024000] PASS  burst r9 node1 RX RTR = 0x0
+[48333024000] FAIL  burst r9 node1 RX DLC : got 0xe expected 0x9
+[48333024000] FAIL  burst r9 node1 RX DATA : got 0xb3d976678531340a expected 0x6dcb69dba6fcde4d
+[48333071000] FAIL  burst r9 node0 RX FIFO not empty
+[48333119000] FAIL  burst r9 node2 RX FIFO not empty
+[48333160000] FAIL  burst r9 node1 RX FIFO not empty
+[48333222000] FAIL  burst r9 node2 RX FIFO not empty
+[48334091000] PASS  burst r10 node0 TX_DONE
+[50334748000] FAIL  burst r10 node1 TX_DONE
+[52058523000] PASS  burst r10 node2 TX_DONE
+[52058871000] FAIL  burst r10 node0 RX ID  : got 0xaa62ad6 expected 0x3071a45
+[52058871000] PASS  burst r10 node0 RX IDE = 0x1
+[52058871000] PASS  burst r10 node0 RX RTR = 0x0
+[52058871000] FAIL  burst r10 node0 RX DLC : got 0x2 expected 0x4
+[52058871000] FAIL  burst r10 node0 RX DATA : got 0xe91d expected 0x34980769
+[52058915000] FAIL  burst r10 node2 RX FIFO not empty
+[52058971000] FAIL  burst r10 node0 RX FIFO not empty
+[52059028000] FAIL  burst r10 node1 RX FIFO not empty
+[52059086000] FAIL  burst r10 node1 RX FIFO not empty
+[52059142000] FAIL  burst r10 node2 RX FIFO not empty
+[54060131000] FAIL  burst r11 node0 TX_DONE
+[56060806000] FAIL  burst r11 node1 TX_DONE
+[56060910000] PASS  burst r11 node2 TX_DONE
+[56060961000] FAIL  burst r11 node1 RX FIFO not empty
+[56061013000] FAIL  burst r11 node2 RX FIFO not empty
+[56061371000] PASS  burst r11 node0 RX ID  = 0x472
+[56061371000] PASS  burst r11 node0 RX IDE = 0x0
+[56061371000] PASS  burst r11 node0 RX RTR = 0x0
+[56061371000] PASS  burst r11 node0 RX DLC = 0xa
+[56061371000] PASS  burst r11 node0 RX DATA = 0x2f3ab35e7d4779fa
+[56061427000] FAIL  burst r11 node1 RX FIFO not empty
+[56061471000] FAIL  burst r11 node0 RX FIFO not empty
+[56061529000] FAIL  burst r11 node2 RX FIFO not empty
+==================== RESULT random_burst : 42 passed, 130 failed => TEST FAILED
